@@ -11,4 +11,30 @@
   color: white;
 }
 
-/*# sourceMappingURL=main.css.map */
+
+.footer {
+  background: black;
+}
+
+.footer__title {
+  font-family: "sans-serif";
+  font-size: medium;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer__list {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__item {
+  width: 40px;
+  height: 44px;
+  border: 3px dashed white;
+  border-radius: 50%;
+}
+
+.footer__link {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
