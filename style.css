@@ -1,11 +1,10 @@
 .header {
-    background-color: ;
-
+    background-color: black ;
+    align-items: center;
 }
 .container {
 
 }
 .header__img{
-width: 3200px;
-height: 500px;
+    width: 40%;
 }
