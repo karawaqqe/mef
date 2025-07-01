@@ -1,0 +1,10 @@
+.header {
+    background-color: black ;
+    align-items: center;
+}
+.container {
+
+}
+.header__img{
+    width: 40%;
+}
