@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
     <!-- <link rel="stylesheet" href="./style.css"> -->
      <link rel="stylesheet" href="./css/reset.css">
      <link rel="stylesheet" href="./main.css">
@@ -41,19 +45,114 @@
 </div>
 </section>
 <section class="shop">
-
+<div class="container">
+  <h2 class="shop__title">Catalog</h2>
+  <div class="shop__container">
+<ul class="shop__list">
+  <li class="shop__item">
+    <div class="shop__box">
+    <img src="" alt="" class="shop__img">
+    <p class="shop__text">Name</p>
+    <p class="shop__info">Price</p>
+  </div>
+  <button class="shop__button">Add to cart</button>
+  </li>
+  <li class="shop__item">
+    <div class="shop__box">
+    <img src="" alt="" class="shop__img">
+    <p class="shop__text">Name</p>
+    <p class="shop__info">Price</p>
+  </div>
+  <button class="shop__button">Add to cart</button>
+  </li>
+  <li class="shop__item">
+    <div class="shop__box">
+    <img src="" alt="" class="shop__img">
+    <p class="shop__text">Name</p>
+    <p class="shop__info">Price</p>
+  </div>
+  <button class="shop__button">Add to cart</button>
+  </li>
+  <li class="shop__item">
+    <div class="shop__box">
+    <img src="" alt="" class="shop__img">
+    <p class="shop__text">Name</p>
+    <p class="shop__info">Price</p>
+  </div>
+  <button class="shop__button">Add to cart</button>
+  </li>
+</ul>
+  </div>
+</div>
 </section>
 <footer class="footer">
-    <div class="footer__container">
- <h2 class="footer__title">Title</h2>
- <nav class="footer__nav">
-    <ul class="footer__list">
-        <li class="footer__item"><a href="" class="footer__link">1</a></li>
-        <li class="footer__item"><a href="" class="footer__link">2</a></li>
-        <li class="footer__item"><a href="" class="footer__link">3</a></li>
-    </ul>
- </nav>
-</div>
+  <div class="container footer__container">
+    <nav class="footer__nav">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a href="" class="footer__link">Home</a>
+        </li>
+        <li class="footer__item">
+          <a href="" class="footer__link">Shop</a>
+        </li>
+        <li class="footer__item">
+          <a href="" class="footer__link">About us</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="footer__wrapper">
+      <a href="./index.html" class="footer__link__logo"
+        ><img src="./img/footer/mef.webp" alt="" class="footer__logo"
+      /></a>
+      <p class="footer__text">Mephedrone</p>
+      <ul class="footer__icons">
+        <li class="footer__icon">
+          <a href="" class="footer__link__logo">
+            <svg class="icons">
+              <use href="./img/icons/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__icon">
+          <a href="" class="footer__link__logo">
+            <svg class="icons">
+              <use href="./img/icons/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__icon">
+          <a href="" class="footer__link__logo">
+            <svg class="icons">
+              <use href="./img/icons/symbol-defs.svg#icon-telegram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3 class="footer__subtitle">Contact</h3>
+      <p class="footer__info">We will answer any question!</p>
+      <form class="footer__field" action="">
+        <label for="" class="footer__label">
+          <input
+            class="footer__input"
+            type="email"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+        <label for="" class="footer__label">
+          <input
+            class="footer__input"
+            type="text"
+            placeholder="Type your question"
+            required
+          />
+        </label>
+        <button class="footer__button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
