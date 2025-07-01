@@ -1,0 +1,84 @@
+.shop {
+    background: black;
+}
+
+.container {
+    width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+}
+
+.shop__title {
+    font-family: "Montserrat Alternates";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 27px;
+        color: white;
+    }
+.shop__container {}
+
+.shop__list {
+    display: flex;
+   
+    gap: 50px;
+}
+
+.shop__item {
+    background: white;
+    border-radius: 32px;
+        border: 1px solid rgba(11, 8, 3, 0.15);
+        padding: 32px;
+        max-width: 310px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.shop__box {
+
+}
+
+.shop__img {
+    border: solid 1px black;
+    width: 300px;
+    height: 150px;
+
+}
+
+.shop__text {
+    color: #0b0803;
+        font-family: "Montserrat Alternates";
+     font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 246px;
+        text-align: center;
+}
+.shop__info {
+    color: #0b0803;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        text-align: center;
+}
+
+.shop__button {
+    border-radius: 25px;
+        background: #a12828e7;
+        width: 100px;
+        height: 40px;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+}
