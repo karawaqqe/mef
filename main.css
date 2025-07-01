@@ -172,6 +172,8 @@
 
 .shop {
   background: black;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 
 .container {
@@ -251,7 +253,12 @@
 .footer {
   background: linear-gradient(to right, #ff0000);
   background: black;
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url('./img/footer/18.webp');
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: right bottom;
 }
 
 .container {
@@ -275,8 +282,19 @@
   gap: 20px;
 }
 
+.footer__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #ff4d4d;
+  transition: width 0.3s ease;
+}
+
 .footer__link:hover {
-  color: white;
+  color: #FFF;
 }
 
 .footer__link {
@@ -286,6 +304,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
 .footer__wrapper {
@@ -369,8 +389,9 @@
 }
 
 .footer__button {
+  color: #fff;
   border-radius: 25px;
-  background: rgba(161, 40, 40, 0.9058823529);
+  background: radial-gradient(circle at 30% 30%, #860101, #310404);
   width: 145px;
   height: 40px;
   font-family: "Montserrat";
@@ -378,13 +399,15 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 20px rgb(45, 36, 36), inset 0 0 10px rgba(255, 0, 0, 0.3);
 }
 
 .footer__button:hover {
-  border-radius: 25px;
-  border: 1px solid rgba(161, 40, 40, 0.9058823529);
-  background: #FFF;
-  color: rgba(161, 40, 40, 0.9058823529);
+  transform: scale(1.05);
 }
 
 @keyframes pulse {
