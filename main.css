@@ -123,15 +123,51 @@
   z-index: 0;
 }
 
-.hero{
-  padding-top: 50px;
-  padding-left: 50px;
+
+.hero {
+  height: 400px;
   background-color: black;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+.hero__product {
+  width: 640px;
+  float: left;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.hero__text {
+  margin-left: 660px;
+  margin-top: 90px;
   color: white;
 }
 
-.product1{
-  width: 30%;
+.hero__button {
+  margin-right: 10px;
+  margin-top: 10px;
+  position: relative;
+  padding: 0.5rem 1.7rem;
+  background: radial-gradient(circle at 30% 30%, #860101, #310404);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5), inset 0 0 10px rgba(255, 0, 0, 0.3);
 }
 
 .footer {
