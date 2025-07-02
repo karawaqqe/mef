@@ -8,6 +8,7 @@
 .hero__product{
     width: 640px;
     float: left;
+    border-radius: 50px;
 }
 
 .hero h1{
@@ -27,7 +28,7 @@
 }
 
 .hero__button {
-    margin-right: 10px;
+  margin-right: 10px;
   margin-top: 10px;
   position: relative;
   padding: 0.5rem 1.7rem;
