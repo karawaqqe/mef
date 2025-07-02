@@ -269,12 +269,7 @@
   background: black;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url('./img/footer/18.webp');
-  background-repeat: no-repeat;
-  background-size: 50px;
-  background-position: right bottom;
 }
-
 
 .container {
   width: 1280px;
