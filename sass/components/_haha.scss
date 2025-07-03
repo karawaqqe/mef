@@ -66,3 +66,70 @@
     width: 500px;
     border-radius: 50px;
 }
+
+
+.haha__workerpair {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  width: 350px; 
+  height: 350px; 
+}
+
+.haha__worker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: opacity 0.5s;
+}
+
+.haha__workerdef {
+  opacity: 1;
+  z-index: 1;
+}
+
+.haha__workerhover {
+  opacity: 0;
+  z-index: 2;
+}
+
+.haha__workerpair:hover .haha__workerdef {
+  opacity: 0;
+}
+.haha__workerpair:hover .haha__workerhover {
+  opacity: 1;
+}
+
+.haha_team {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.haha__workerblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin: 25px;
+}
+
+.haha__workerblock h3 {
+  margin-top: 24px;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.haha__workerblock p {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #ccc;
+  text-align: center;
+}
