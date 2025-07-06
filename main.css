@@ -563,6 +563,9 @@
 
 .footer__link:hover {
   color: #FFF;
+  text-shadow: 0 0 20px #dfd2d2;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
 .footer__link {
@@ -574,6 +577,7 @@
   line-height: normal;
   position: relative;
   transition: color 0.3s ease;
+  text-shadow: 0 0 5px #0e0909;
 }
 
 .footer__wrapper {
@@ -587,6 +591,7 @@
 .footer__logo {
   width: 300px;
   height: 150px;
+  filter: drop-shadow(0 0 20px #0a0707);
 }
 
 .footer__text {
@@ -598,6 +603,8 @@
   line-height: normal;
   text-transform: uppercase;
   margin-bottom: 32px;
+  opacity: 0.85;
+  text-shadow: 0 0 10px #000000, 0 0 30px #060202, 0 0 30px #0b0505;
 }
 
 .footer__icons {
@@ -658,9 +665,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background-color: rgb(172, 5, 5);
-  border-bottom: 1px rgba(0, 0, 0, 0.906) solid;
-  background: linear-gradient(to right, #990000, #940202);
+  border: #000000 solid 1px;
+  outline: none;
+  color: #070707;
+  border-radius: 25px;
+  padding: 10px;
+  background: none;
 }
 
 .footer__button {
